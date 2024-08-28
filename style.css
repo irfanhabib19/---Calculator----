@@ -1,0 +1,29 @@
+#calculator{
+    border: 1px,solid,rgba(177, 167, 167, 0.964);
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(246, 229, 184);
+}
+#display{
+    margin:10px ;
+    width: 85%;
+    font-size: 30px;
+    color: red;
+    border-radius: 10px;
+    background-color:rgb(209, 233, 246);
+}
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    color: rgb(255, 6, 6);
+    background-color:rgb(205, 154, 169);
+    border-radius: 15px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(243, 193, 185);
+    border-radius: 10px;
+}
